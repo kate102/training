@@ -1,13 +1,13 @@
 package com.deloitte.training.demo3.model;
 
-public class Holiday {
+public class Holiday3 {
     private String destination;
     private int days;
 
-    public Holiday() {
+    public Holiday3() {
     }
 
-    public Holiday(String destination, int days) {
+    public Holiday3(final String destination, final int days) {
         this.destination = destination;
         this.days = days;
     }
@@ -16,7 +16,7 @@ public class Holiday {
         return this.destination;
     }
 
-    public void setDestination(String destination) {
+    public void setDestination(final String destination) {
         this.destination = destination;
     }
 
@@ -24,16 +24,16 @@ public class Holiday {
         return this.days;
     }
 
-    public void setDays(int days) {
+    public void setDays(final int days) {
         this.days = days;
     }
 
-    public Holiday destination(String destination) {
+    public Holiday3 destination(final String destination) {
         this.destination = destination;
         return this;
     }
 
-    public Holiday days(int days) {
+    public Holiday3 days(final int days) {
         this.days = days;
         return this;
     }
