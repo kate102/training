@@ -13,7 +13,7 @@ import java.util.List;
 public class Demo3ApplicationHolidays {
 
 	@Bean
-    public List<Holiday3> wibble2() {
+    public List<Holiday3> wibble() {
         System.out.println("Holiday List in construction...");
         return Arrays.asList(
             new Holiday3("Ibiza",7),
@@ -22,8 +22,8 @@ public class Demo3ApplicationHolidays {
         );
 	}
 	
-	// public static void main(String[] args) {
-	// 	SpringApplication.run(Demo3ApplicationHolidays.class, args);
-	// }
+	public static void main(String[] args) {
+		SpringApplication.run(Demo3ApplicationHolidays.class, args);
+	}
 
 }
