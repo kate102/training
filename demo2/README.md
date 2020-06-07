@@ -17,14 +17,16 @@
  It is called `DemoApplication.java` presumably it can use different models.
 
 
-*Running
+## Running
 From inside demo2 type `gradle bootRun`
 
 In a new tab `http://localhost:8080/holidays/all`
 This should display `[{"destination":"Ibiza","days":7},{"destination":"Rome","days":5},{"destination":"Thailand","days":21}]`
+
 In a new tab `http://localhost:8080/holidays/byDestination/Rome`
 This should display `{"destination":"Rome","days":5}`
-In a new tab `http://localhost:8080/holidays/byDestination/Paris` and you shouldget `java.io.IOException: Oh No!` on the commandline.
+
+In a new tab `http://localhost:8080/holidays/byDestination/Paris` and you should get `java.io.IOException: Oh No!` on the commandline.
 
 
 
